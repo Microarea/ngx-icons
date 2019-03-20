@@ -25,17 +25,12 @@ import { AppComponent } from './app.component';
 import { TbIconsModule } from '@tb/icons';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    TbIconsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [AppComponent],
+    imports: [BrowserModule, TbIconsModule],
+    providers: [],
+    bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
 ```
 
 Una volta importata la libreria, puoi usare le icone nel modo seguente:
