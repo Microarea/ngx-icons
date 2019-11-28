@@ -1,9 +1,9 @@
 {
   "name": "@tb/icons",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "peerDependencies": {
-    "@angular/common": "^8.2.12",
-    "@angular/core": "^8.2.12"
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0"
   },
   "main": "bundles/tb-icons.umd.js",
   "module": "fesm5/tb-icons.js",
