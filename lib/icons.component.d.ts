@@ -1,3 +1,4 @@
 export declare class IconsComponent {
-    icon: string;
+    _icon: string;
+    icon: any;
 }

@@ -10,8 +10,23 @@
      */
     var IconsComponent = /** @class */ (function () {
         function IconsComponent() {
-            this.icon = 'tb-filledcircle';
+            this._icon = 'tb-filledcircle';
         }
+        Object.defineProperty(IconsComponent.prototype, "icon", {
+            get: /**
+             * @return {?}
+             */ function () {
+                return this._icon;
+            },
+            set: /**
+             * @param {?} icon
+             * @return {?}
+             */ function (icon) {
+                this._icon = icon instanceof Object ? icon.value : icon;
+            },
+            enumerable: true,
+            configurable: true
+        });
         IconsComponent.decorators = [
             { type: core.Component, args: [{
                         selector: 'm4-icon',

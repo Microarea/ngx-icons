@@ -1,9 +1,12 @@
 {
   "name": "@tb/icons",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "peerDependencies": {
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0"
+  },
+  "dependencies": {
+    "tslib": "^1.9.0"
   },
   "main": "bundles/tb-icons.umd.js",
   "module": "fesm5/tb-icons.js",
@@ -14,8 +17,5 @@
   "fesm2015": "fesm2015/tb-icons.js",
   "typings": "tb-icons.d.ts",
   "metadata": "tb-icons.metadata.json",
-  "sideEffects": false,
-  "dependencies": {
-    "tslib": "^1.9.0"
-  }
+  "sideEffects": false
 }

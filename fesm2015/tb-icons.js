@@ -6,7 +6,20 @@ import { Component, Input, ChangeDetectionStrategy, NgModule } from '@angular/co
  */
 class IconsComponent {
     constructor() {
-        this.icon = 'tb-filledcircle';
+        this._icon = 'tb-filledcircle';
+    }
+    /**
+     * @param {?} icon
+     * @return {?}
+     */
+    set icon(icon) {
+        this._icon = icon instanceof Object ? icon.value : icon;
+    }
+    /**
+     * @return {?}
+     */
+    get icon() {
+        return this._icon;
     }
 }
 IconsComponent.decorators = [
