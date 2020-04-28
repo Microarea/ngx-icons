@@ -2816,3 +2816,24 @@
 .m4-erp-purchaseorderlink:before {
   content: "\3c";
 }
+.m4-sd-ui-customizer:before {
+  content: "\e14a";
+}
+.m4-sd-menu-designer:before {
+  content: "\e346";
+}
+.m4-sd-enums-designer:before {
+  content: "\e347";
+}
+.m4-sd-datamodel:before {
+  content: "\e348";
+}
+.m4-sd-database-extender:before {
+  content: "\e349";
+}
+.m4-tb-checkbox-check:before {
+  content: "\e34b";
+}
+.m4-tb-checked-uncheck:before {
+  content: "\e34c";
+}
