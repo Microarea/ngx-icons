@@ -2630,9 +2630,6 @@
 .m4-erp-accounting-c:before {
   content: "\62";
 }
-.m4-erp-accountingmore-c:before {
-  content: "\64";
-}
 .m4-erp-assets-c:before {
   content: "\67";
 }
@@ -2665,9 +2662,6 @@
 }
 .m4-erp-europe:before {
   content: "\e313";
-}
-.m4-erp-itemreturn:before {
-  content: "\e314";
 }
 .m4-erp-moneycoinsarrowright:before {
   content: "\e315";
@@ -2836,4 +2830,49 @@
 }
 .m4-tb-checked-uncheck:before {
   content: "\e34c";
+}
+.m4-erp-accountingmore-c:before {
+  content: "\64";
+}
+.m4-erp-primarykey:before {
+  content: "\e30b";
+}
+.m4-erp-scheduler:before {
+  content: "\e30e";
+}
+.m4-erp-dbext-master:before {
+  content: "\e31d";
+}
+.m4-erp-dbext-slave:before {
+  content: "\e345";
+}
+.m4-erp-retail-fashion:before {
+  content: "\e34a";
+}
+.m4-erp-retail-pricesdetail:before {
+  content: "\e34d";
+}
+.m4-erp-instore-mobile:before {
+  content: "\e34e";
+}
+.m4-erp-voucher:before {
+  content: "\e34f";
+}
+.m4-erp-airplane-boarding:before {
+  content: "\e350";
+}
+.m4-erp-send-log-to:before {
+  content: "\e351";
+}
+.m4-erp-send-db-to:before {
+  content: "\e352";
+}
+.m4-erp-from-store:before {
+  content: "\e353";
+}
+.m4-erp-itemreturn:before {
+  content: "\e314";
+}
+.m4-erp-qty-incoming:before {
+  content: "\e354";
 }
