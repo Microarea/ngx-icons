@@ -2861,12 +2861,6 @@
 .m4-erp-airplane-boarding:before {
   content: "\e350";
 }
-.m4-erp-send-log-to:before {
-  content: "\e351";
-}
-.m4-erp-send-db-to:before {
-  content: "\e352";
-}
 .m4-erp-from-store:before {
   content: "\e353";
 }
@@ -2875,4 +2869,10 @@
 }
 .m4-erp-qty-incoming:before {
   content: "\e354";
+}
+.m4-erp-change-store:before {
+  content: "\e355";
+}
+.m4-erp-change-company:before {
+  content: "\e356";
 }
