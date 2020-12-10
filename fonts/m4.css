@@ -110,9 +110,6 @@
 .m4-erp-checkprices-c:before {
   content: "\46";
 }
-.m4-erp-closingoptions:before {
-  content: "\47";
-}
 .m4-erp-collectionvoucher:before {
   content: "\48";
 }
@@ -2875,4 +2872,13 @@
 }
 .m4-erp-change-company:before {
   content: "\e356";
+}
+.m4-erp-esp-logo-icon:before {
+  content: "\e351";
+}
+.m4-erp-closingoptions:before {
+  content: "\47";
+}
+.m4-erp-substitute-item:before {
+  content: "\e352";
 }
