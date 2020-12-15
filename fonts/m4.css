@@ -2882,3 +2882,6 @@
 .m4-erp-substitute-item:before {
   content: "\e352";
 }
+.m4-tb-sorting:before {
+  content: "\e357";
+}
