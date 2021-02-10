@@ -2885,3 +2885,9 @@
 .m4-tb-sorting:before {
   content: "\e357";
 }
+.m4-erp-change-inventory-reason:before {
+  content: "\e358";
+}
+.m4-erp-change-storage:before {
+  content: "\e359";
+}
