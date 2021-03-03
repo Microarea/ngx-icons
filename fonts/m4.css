@@ -2891,3 +2891,12 @@
 .m4-erp-change-storage:before {
   content: "\e359";
 }
+.m4-erp-news:before {
+  content: "\e35a";
+}
+.m4-erp-storage:before {
+  content: "\e35b";
+}
+.m4-erp-tools-boxed:before {
+  content: "\e35c";
+}
