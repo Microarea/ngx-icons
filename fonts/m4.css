@@ -22,6 +22,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.m4-erp-cookinginstructions:before {
+  content: "\ecc4";
+}
 .m4-erp-mago-wmsmobile:before {
   content: "\ecc2";
 }
@@ -118,7 +121,7 @@
 .m4-erp-billofladingprocessed:before {
   content: "\e91d";
 }
-.m4-erp-billoflanding:before {
+.m4-erp-fiscalbill:before {
   content: "\e91e";
 }
 .m4-erp-billofmaterials:before {
