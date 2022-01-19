@@ -9,25 +9,19 @@
     font-style: normal;
 }
 
-
-[class^="m4-"], [class*=" m4-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'm4' !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
+[class^="m4-"]:before,
+[class*=" m4-"]:before {
+  font-family: "m4" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
   line-height: 1;
-
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.m4-tb-sos:before {
-  content: "\ecce";
-}
 .m4-erp-dashboard-comp:before {
   content: "\eccc";
 }
