@@ -25,6 +25,42 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.m4-instore-database-reset:before {
+  content: "\ecda";
+}
+.m4-instore-erp-order-btw-store:before {
+  content: "\eccf";
+}
+.m4-instore-erp-send-log:before {
+  content: "\ecd0";
+}
+.m4-instore-database-export:before {
+  content: "\ecd1";
+}
+.m4-instore-database-import:before {
+  content: "\ecd2";
+}
+.m4-instore-erp-add-value-lotto:before {
+  content: "\ecd3";
+}
+.m4-instore-erp-back-to:before {
+  content: "\ecd4";
+}
+.m4-instore-erp-changelanguage:before {
+  content: "\ecd5";
+}
+.m4-instore-erp-close:before {
+  content: "\ecd6";
+}
+.m4-instore-erp-minus:before {
+  content: "\ecd7";
+}
+.m4-instore-erp-next-to:before {
+  content: "\ecd8";
+}
+.m4-instore-erp-plus:before {
+  content: "\ecd9";
+}
 .m4-tb-sos:before {
   content: "\ecce";
 }
