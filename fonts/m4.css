@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.m4-MagoEDI:before {
+  content: "\ecdb";
+}
 .m4-instore-database-reset:before {
   content: "\ecda";
 }
