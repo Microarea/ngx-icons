@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.m4-instore-outgoing-goods:before {
+  content: "\ece3";
+}
+.m4-instore-refill-qty:before {
+  content: "\ece4";
+}
 .m4-wizard-batch:before {
   content: "\ece2";
 }
