@@ -25,6 +25,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.m4-erp-barcodes-item:before {
+  content: "\ece6";
+}
+.m4-erp-diffcompany:before {
+  content: "\ece5";
+}
 .m4-instore-outgoing-goods:before {
   content: "\ece3";
 }
@@ -1795,6 +1801,9 @@
 .m4-tb-device:before {
   content: "\eb31";
 }
+.m4-tb-dms:before {
+  content: "\eb32";
+}
 .m4-tb-document:before {
   content: "\eb33";
 }
@@ -3012,7 +3021,4 @@
 }
 .m4-unlock:before {
   content: "\eccb";
-}
-.m4-tb-dms:before {
-  content: "\eb32";
 }
