@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.m4-instore-ricerca-in-lista:before {
+  content: "\ece7";
+}
 .m4-erp-barcodes-item:before {
   content: "\ece6";
 }
