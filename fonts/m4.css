@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.m4-erp-riskscore:before {
+  content: "\ece8";
+}
 .m4-instore-ricerca-in-lista:before {
   content: "\ece7";
 }
