@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.m4-erp-edit-EI-FE:before {
+  content: "\ece9";
+}
 .m4-erp-riskscore:before {
   content: "\ece8";
 }
