@@ -25,7 +25,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.m4-erp-edit-EI-FE:before {
+.m4-erp-edit-ei-fe:before {
   content: "\ece9";
 }
 .m4-erp-riskscore:before {
@@ -67,7 +67,7 @@
 .m4-link45:before {
   content: "\ece1";
 }
-.m4-MagoEDI:before {
+.m4-magoedi:before {
   content: "\ecdb";
 }
 .m4-instore-database-reset:before {
@@ -124,7 +124,7 @@
 .m4-erp-configuration:before {
   content: "\e902";
 }
-.m4-erp-loadOrder:before {
+.m4-erp-loadorder:before {
   content: "\e903";
 }
 .m4-erp-pricetag:before {
@@ -3030,4 +3030,7 @@
 }
 .m4-unlock:before {
   content: "\eccb";
+}
+.m4-update:before {
+  content: "\ecea";
 }
