@@ -25,6 +25,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.m4-instore-wifi-off:before {
+  content: "\eced";
+}
+.m4-instore-wifi-on:before {
+  content: "\ecee";
+}
+.m4-instore-update-list:before {
+  content: "\eceb";
+}
+.m4-add-to-dashboard-custom:before {
+  content: "\ecec";
+}
+.m4-update:before {
+  content: "\ecea";
+}
 .m4-erp-edit-ei-fe:before {
   content: "\ece9";
 }
@@ -3030,7 +3045,4 @@
 }
 .m4-unlock:before {
   content: "\eccb";
-}
-.m4-update:before {
-  content: "\ecea";
 }
