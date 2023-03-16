@@ -73,7 +73,7 @@
 .m4-ctrl-function:before {
   content: "\ece0";
 }
-.m4-expired-deprecated:before {
+.m4-erp-expired-deprecated:before {
   content: "\ecdc";
 }
 .m4-broom-clear:before {
