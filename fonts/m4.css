@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.m4-erp-apina:before {
+  content: "\ecf0";
+}
+.m4-erp-apina-filled:before {
+  content: "\ecef";
+}
+.m4-erp-processing-type:before {
+  content: "\ecf1";
+}
+.m4-erp-assign-processing:before {
+  content: "\ecf2";
+}
 .m4-instore-wifi-off:before {
   content: "\eced";
 }
