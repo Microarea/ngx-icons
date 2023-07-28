@@ -25,6 +25,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.m4-erp-item-status:before {
+  content: "\ecf3";
+}
+.m4-erp-item-rejected:before {
+  content: "\ecf4";
+}
+.m4-erp-item-scrap:before {
+  content: "\ecf5";
+}
+.m4-erp-item-tobereturned:before {
+  content: "\ecf6";
+}
 .m4-erp-apina:before {
   content: "\ecf0";
 }
