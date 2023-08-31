@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.m4-erp-documentfromsales:before {
+  content: "\ecf7";
+}
 .m4-erp-item-status:before {
   content: "\ecf3";
 }
