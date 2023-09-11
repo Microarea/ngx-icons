@@ -25,6 +25,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.m4-erp-dashboard-comp-public:before {
+  content: "\ecf8";
+}
+.m4-erp-single-brick-public:before {
+  content: "\ecf9";
+}
+.m4-tb-document-public:before {
+  content: "\ecfa";
+}
+.m4-tb-options-public:before {
+  content: "\ecfb";
+}
+.m4-tb-print-public:before {
+  content: "\ecfc";
+}
+.m4-wizard-batch-public:before {
+  content: "\ecfd";
+}
 .m4-erp-documentfromsales:before {
   content: "\ecf7";
 }
