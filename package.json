@@ -1,6 +1,6 @@
 {
   "name": "@tb/icons",
-  "version": "2.4.10",
+  "version": "2.4.11",
   "peerDependencies": {
     "@angular/common": "~13.2.0",
     "@angular/core": "~13.2.0"

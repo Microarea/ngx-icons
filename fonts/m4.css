@@ -25,6 +25,39 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.m4-tb-keyboard-nav:before {
+  content: "\ecfe";
+}
+.m4-tb-pinned:before {
+  content: "\ecff";
+}
+.m4-tb-unpinned:before {
+  content: "\ed00";
+}
+.m4-tb-equal:before {
+  content: "\ed02";
+}
+.m4-tb-only-in-bom1:before {
+  content: "\ed03";
+}
+.m4-tb-only-in-bom2:before {
+  content: "\ed04";
+}
+.m4-tb-qty-higher-than:before {
+  content: "\ed05";
+}
+.m4-tb-qty-lower-than:before {
+  content: "\ed06";
+}
+.m4-tb-level-higher-bom1:before {
+  content: "\ed07";
+}
+.m4-tb-level-lower-bom1:before {
+  content: "\ed08";
+}
+.m4-icona-logo-stock-n-move:before {
+  content: "\ed01";
+}
 .m4-erp-dashboard-comp-public:before {
   content: "\ecf8";
 }
