@@ -1,30 +1,24 @@
 {
   "name": "@tb/icons",
-  "version": "2.4.11",
+  "version": "2.4.0+100",
   "peerDependencies": {
-    "@angular/common": "~13.2.0",
-    "@angular/core": "~13.2.0"
+    "@angular/compiler": "^17.0.4",
+    "@angular/core": "^17.0.4"
   },
   "dependencies": {
     "tslib": "^2.0.0"
   },
-  "module": "fesm2015/tb-icons.mjs",
-  "es2020": "fesm2020/tb-icons.mjs",
-  "esm2020": "esm2020/tb-icons.mjs",
-  "fesm2020": "fesm2020/tb-icons.mjs",
-  "fesm2015": "fesm2015/tb-icons.mjs",
-  "typings": "tb-icons.d.ts",
+  "module": "fesm2022/tb-icons.mjs",
+  "typings": "index.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./tb-icons.d.ts",
-      "esm2020": "./esm2020/tb-icons.mjs",
-      "es2020": "./fesm2020/tb-icons.mjs",
-      "es2015": "./fesm2015/tb-icons.mjs",
-      "node": "./fesm2015/tb-icons.mjs",
-      "default": "./fesm2020/tb-icons.mjs"
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/tb-icons.mjs",
+      "esm": "./esm2022/tb-icons.mjs",
+      "default": "./fesm2022/tb-icons.mjs"
     }
   },
   "sideEffects": false,
