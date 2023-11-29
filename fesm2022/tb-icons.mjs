@@ -29,6 +29,12 @@ class IconsComponent {
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassDebugInfo(IconsComponent, { className: "IconsComponent", filePath: "lib\\icons.component.ts", lineNumber: 11 }); })();
 
 class TbIconsModule {
+    static forRoot() {
+        return {
+            ngModule: TbIconsModule,
+            providers: [],
+        };
+    }
     /** @nocollapse */ static { this.ɵfac = function TbIconsModule_Factory(t) { return new (t || TbIconsModule)(); }; }
     /** @nocollapse */ static { this.ɵmod = /** @pureOrBreakMyCode */ i0.ɵɵdefineNgModule({ type: TbIconsModule }); }
     /** @nocollapse */ static { this.ɵinj = /** @pureOrBreakMyCode */ i0.ɵɵdefineInjector({}); }
@@ -38,7 +44,7 @@ class TbIconsModule {
         args: [{
                 imports: [],
                 declarations: [IconsComponent],
-                exports: [IconsComponent]
+                exports: [IconsComponent],
             }]
     }], null, null); })();
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(TbIconsModule, { declarations: [IconsComponent], exports: [IconsComponent] }); })();
