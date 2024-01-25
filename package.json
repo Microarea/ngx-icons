@@ -1,6 +1,6 @@
 {
   "name": "@tb/icons",
-  "version": "v2.4.0+102",
+  "version": "v2.4.0+103",
   "peerDependencies": {
     "@angular-devkit/build-angular": "^17.0.7",
     "@angular/compiler": "^17.0.7",
