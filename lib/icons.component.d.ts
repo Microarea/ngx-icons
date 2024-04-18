@@ -4,5 +4,5 @@ export declare class IconsComponent {
     set icon(icon: any);
     get icon(): any;
     static ɵfac: i0.ɵɵFactoryDeclaration<IconsComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<IconsComponent, "m4-icon", never, { "icon": "icon"; }, {}, never, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<IconsComponent, "m4-icon", never, { "icon": { "alias": "icon"; "required": false; }; }, {}, never, never, false, never>;
 }
