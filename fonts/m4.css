@@ -22,9 +22,7 @@
     -webkit-font-smoothing: antialiased;  
     -moz-osx-font-smoothing: grayscale;  
 }  
-  -webkit-font-smoothing: antialiased; 
-  -moz-osx-font-smoothing: grayscale; 
-} 
+
 .m4-erp-doc-storage-generated:before { 
   content: "\ed21"; 
 } 
