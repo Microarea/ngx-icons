@@ -20,7 +20,7 @@ class IconsComponent {
 }
 (() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(IconsComponent, [{
         type: Component,
-        args: [{ selector: 'm4-icon', changeDetection: ChangeDetectionStrategy.OnPush, standalone: false, template: "<i class=\"m4-icon m4-{{ icon }}\"></i>\r\n", styles: [":host(m4-icon){display:flex}:host(m4-icon) i{display:flex}\n"] }]
+        args: [{ selector: 'm4-icon', changeDetection: ChangeDetectionStrategy.OnPush, standalone: false, template: "<i class=\"m4-icon m4-{{ icon }}\"></i>\n", styles: [":host(m4-icon){display:flex}:host(m4-icon) i{display:flex}\n"] }]
     }], null, { icon: [{
             type: Input
         }] }); })();
