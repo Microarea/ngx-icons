@@ -1,28 +1,66 @@
-@font-face {         
-    font-family: 'm4';         
-    src: url('./m4.eot');         
-    src: url('./m4.eot?#iefix') format('embedded-opentype'), url('./m4.woff') format('woff'), url('./m4.ttf') format('truetype'),         
-        url('./m4.svg#m4') format('svg');         
-    font-weight: normal;         
-    font-style: normal;         
-}         
-         
-[class^='m4-'],         
-[class*=' m4-'] {         
-    /* use !important to prevent issues with browser extensions that change fonts */         
-    font-family: 'm4' !important;         
-    speak: never;         
-    font-style: normal;         
-    font-weight: normal;         
-    font-variant: normal;         
-    text-transform: none;         
-    line-height: 1;         
-         
-    /* Better Font Rendering =========== */         
-    -webkit-font-smoothing: antialiased;         
-    -moz-osx-font-smoothing: grayscale;         
-}         
-
+@font-face {          
+    font-family: 'm4';          
+    src: url('./m4.eot');          
+    src: url('./m4.eot?#iefix') format('embedded-opentype'), url('./m4.woff') format('woff'), url('./m4.ttf') format('truetype'),          
+        url('./m4.svg#m4') format('svg');          
+    font-weight: normal;          
+    font-style: normal;          
+}          
+          
+[class^='m4-'],          
+[class*=' m4-'] {          
+    /* use !important to prevent issues with browser extensions that change fonts */          
+    font-family: 'm4' !important;          
+    speak: never;          
+    font-style: normal;          
+    font-weight: normal;          
+    font-variant: normal;          
+    text-transform: none;          
+    line-height: 1;          
+          
+    /* Better Font Rendering =========== */          
+    -webkit-font-smoothing: antialiased;          
+    -moz-osx-font-smoothing: grayscale;          
+}          
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+} 
+.m4-erp-bin-wms:before { 
+  content: "\ed33"; 
+} 
+.m4-erp-packing-wms:before { 
+  content: "\ed34"; 
+} 
+.m4-tb-coloumn-mms:before { 
+  content: "\ed2d"; 
+} 
+.m4-tb-guide-step-by-step:before { 
+  content: "\ed29"; 
+} 
+.m4-tb-1-1-mms:before { 
+  content: "\ed2a"; 
+} 
+.m4-tb-1-N-mms:before { 
+  content: "\ed2b"; 
+} 
+.m4-tb-sigma-calculated-mms:before { 
+  content: "\ed2c"; 
+} 
+.m4-tb-tableslave-mms:before { 
+  content: "\ed2e"; 
+} 
+.m4-tb-tablemaster-mms:before { 
+  content: "\ed2f"; 
+} 
+.m4-tb-dockpane-mms:before { 
+  content: "\ed30"; 
+} 
+.m4-tb-popupwindow-mms:before { 
+  content: "\ed31"; 
+} 
+.m4-tb-tile-mms:before { 
+  content: "\ed32"; 
+} 
 .m4-tb-partmng:before { 
   content: "\ed24"; 
 } 

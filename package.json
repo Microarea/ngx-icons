@@ -1,6 +1,6 @@
 {
   "name": "@tb/icons",
-  "version": "v6.0.0+14",
+  "version": "v6.0.0+15",
   "peerDependencies": {
     "@angular-devkit/build-angular": "20.3.20",
     "@angular/compiler": "20.3.18",
@@ -22,6 +22,6 @@
   },
   "sideEffects": false,
   "scripts": {
-    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
   }
 }
