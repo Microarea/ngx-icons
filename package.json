@@ -1,27 +1,28 @@
 {
   "name": "@tb/icons",
-  "version": "v6.0.0+16",
+  "version": "v6.2.0+1",
   "peerDependencies": {
-    "@angular-devkit/build-angular": "20.3.20",
-    "@angular/compiler": "20.3.18",
-    "@angular/core": "20.3.18"
+    "@angular-devkit/build-angular": "22.2.2",
+    "@angular/compiler": "22.2.2",
+    "@angular/core": "22.2.2"
   },
   "dependencies": {
     "tslib": "^2.0.0"
   },
   "module": "fesm2022/tb-icons.mjs",
-  "typings": "index.d.ts",
+  "typings": "types/tb-icons.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./index.d.ts",
+      "types": "./types/tb-icons.d.ts",
       "default": "./fesm2022/tb-icons.mjs"
     }
   },
   "sideEffects": false,
+  "type": "module",
   "scripts": {
-    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with partial compilation mode, before attempting to publish.\\n')\" && exit 1"
   }
 }
