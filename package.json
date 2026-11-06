@@ -1,0 +1,27 @@
+{
+  "name": "@tb/icons",
+  "version": "v6.2.0+3",
+  "peerDependencies": {
+    "@angular/compiler": "^22.2.4",
+    "@angular/core": "^22.2.4"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "module": "fesm2022/tb-icons.mjs",
+  "typings": "types/tb-icons.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./types/tb-icons.d.ts",
+      "default": "./fesm2022/tb-icons.mjs"
+    }
+  },
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  }
+}
